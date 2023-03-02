@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    scroll-behavior: smooth;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    --width-content: calc(100vh * 0.8)
+}
+
+.content {
+    width: var( --width-content);
+}   
+
+.action-link {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.action-link:hover {
+    text-decoration: underline;
+}
